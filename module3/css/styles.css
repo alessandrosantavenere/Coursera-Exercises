@@ -1,0 +1,6 @@
+body {
+		font-size: 16px;
+		color: #FFF;	/*scritte in bianco*/
+		background-color: #61122F; /*sfondo marrone*/
+		font-family: 'Oxigen', sans-serif;	/*carattere Oxigen da google aggiungendo riga di codice in index.html*/
+}
