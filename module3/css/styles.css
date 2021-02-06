@@ -4,3 +4,10 @@ body {
 		background-color: #61122F; /*sfondo marrone*/
 		font-family: 'Oxigen', sans-serif;	/*carattere Oxigen da google aggiungendo riga di codice in index.html*/
 }
+
+/*header*/
+#header-nav {
+		background-color: #F6B319; /*sfondo giallo*/
+		border-radius: 0;
+		border: 0;
+}
