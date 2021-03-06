@@ -1,20 +1,50 @@
 body {
 		font-size: 16px;
-		color: #FFF;	/*scritte in bianco*/
-		background-color: #61122F; /*sfondo marrone*/
+		color: rgba(0,0,0,100%);	/*scritte in bianco*/
+		background-color: rgba(255,255,255,100%); /*sfondo bianco*/
 		font-family: 'Oxigen', sans-serif;	/*carattere Oxigen da google aggiungendo riga di codice in index.html*/
 }
 
 /*header*/
 #header-nav {
-		background-color: #F6B319; /*sfondo giallo*/
+		background-color: rgba(120,120,120,60%); /*sfondo grigio*/
 		border-radius: 0;
 		border: 0;
 }
 
-#logo-img {
-		background: url('../images/restaurant-logo_large.png') no-repeat;
-		width: 150px;
-		height: 150px;
-		margin: 10px 15px 10px 0;
+.navbar-brand {
+		color: rgba(0,0,0,100%);	/*scritte in bianco*/
+		font-size: 40px;
+		width: 450px;
+		height: 50px;
+		margin: 10px 0px 10px 0px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: rgba(120,120,120,100%);          /*scritta in grigio (grigio è anche default bootstrap)*/ 
+  text-align: center;                    /*allineata al centro*/
+}
+#nav-list a:hover {
+  background: #E7E7E7;                   /*si evidenzia in bianco quando passa il mouse*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+h1 {
+  color: rgba(0,0,0,100%);	/*scritte in nero*/
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Arial, Sans-Serif;
+  font-size: 250%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+h1:hover, h1:focus {
+	  text-decoration: none;
 }
